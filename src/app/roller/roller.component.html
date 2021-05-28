@@ -1,0 +1,18 @@
+<div class="overlay" *ngIf="splash">
+    <div>
+        <h1 style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%);">Dice Roller</h1>
+        <mat-caption style="position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);">
+            Roll standard dice or add custom dice to roll
+        </mat-caption>
+        <mat-caption style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+            Click on the bottom buttons to add modifiers
+        </mat-caption>
+        <mat-caption style="position: absolute; top: 55%; left: 50%; transform: translate(-50%, -50%);">
+            Remove rolls by clicking them on the sidebar
+        </mat-caption>
+        <button mat-raised-button
+        style="position: absolute; top: 65%; left: 50%; transform: translate(-50%, -50%);"
+                            color="primary" (click)="splash = false;">Close</button>
+
+    </div>
+</div>
